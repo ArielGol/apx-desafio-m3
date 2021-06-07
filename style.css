@@ -90,20 +90,17 @@
 }
 
 .header__container {
-  height: 412px;
   display: grid;
-  margin-top: 129px;
-  align-content: space-between;
+  margin-top: 75px;
   justify-content: center;
   justify-items: center;
+  gap: 58px;
 }
 @media (min-width: 769px) {
   .header__container {
     grid-template-columns: 1fr 1fr;
-    height: unset;
-    align-content: unset;
+    gap: unset;
     justify-items: unset;
-    margin-top: 76px;
   }
 }
 .header__image {
